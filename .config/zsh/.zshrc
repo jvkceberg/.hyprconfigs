@@ -6,6 +6,7 @@ setopt SHARE_HISTORY
 
 [[ -f "$ZDOTDIR/aliases.zsh" ]] && source "$ZDOTDIR/aliases.zsh"
 
+eval "$(sheldon source)"
 eval "$(starship init zsh)"
 
 bindkey -v
