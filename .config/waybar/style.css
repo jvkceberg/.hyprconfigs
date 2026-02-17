@@ -1,0 +1,50 @@
+/* Tokyo Night Colors */
+@define-color bg #1a1b26;
+@define-color fg #c0caf5;
+@define-color blue #7aa2f7;
+@define-color purple #bb9af7;
+@define-color cyan #7dcfff;
+@define-color magenta #bb9af7;
+@define-color red #f7768e;
+@define-color green #9ece6a;
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(26, 27, 38, 0.9);
+    color: @fg;
+    border-bottom: 2px solid @blue;
+}
+
+#workspaces button {
+    padding: 0 10px;
+    color: @fg;
+}
+
+#workspaces button.active {
+    color: @blue;
+    border-bottom: 2px solid @blue;
+}
+
+#workspaces button.urgent {
+    color: @red;
+}
+
+#clock, #battery, #backlight, #network, #pulseaudio, #tray {
+    padding: 0 15px;
+    margin: 5px 0;
+}
+
+#clock { color: @cyan; }
+#battery { color: @green; }
+#battery.warning { color: @magenta; }
+#battery.critical { color: @red; }
+#backlight { color: @blue; }
+#network { color: @purple; }
+#pulseaudio { color: @cyan; }
