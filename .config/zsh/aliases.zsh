@@ -1,5 +1,5 @@
 alias ls='ls --color=auto'
-alias v='vim'
-alias vi='vim'
+alias v='nvim'
+alias vi='nvim'
 alias hconfd='cd $HOME/.hyprconfigs/.config'
 alias confd='cd $HOME/.config'
