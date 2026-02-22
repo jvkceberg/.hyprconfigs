@@ -1,0 +1,33 @@
+window {
+  background: rgba(0, 0, 0, 0);
+}
+
+box#main {
+  background: #1e1e2e;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+entry {
+  background: #313244;
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  color: #cdd6f4;
+  box-shadow: none;
+}
+
+list#main {
+  background: transparent;
+}
+
+#match {
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: #cdd6f4;
+}
+
+#match:selected {
+  background: #89b4fa;
+  color: #1e1e2e;
+}

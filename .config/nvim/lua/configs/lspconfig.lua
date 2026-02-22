@@ -1,7 +1,7 @@
 require("nvchad.configs.lspconfig").defaults()
 
 local nvlsp = require "nvchad.configs.lspconfig"
-local servers = { "html", "cssls", "rust_analyzer" }
+local servers = { "html", "cssls", "rust_analyzer", "ron_lsp" }
 
 for _, lsp in ipairs(servers) do
   vim.lsp.config(lsp, {
