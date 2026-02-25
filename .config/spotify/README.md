@@ -4,11 +4,17 @@ Configurations for [Spotify](https://www.spotify.com/) in [Hyprland](https://hyp
 
 ## Introduction
 
-| Component | Tool | Version |
-| :-------- | :--- | :------ |
-| **Window Manager** | [Hyprland](https://hypr.land/) | `0.53.3` |
-| **Backend (Daemon)** | [librespot](https://github.com/librespot-org/librespot/) | `0.8.0` |
-| **Frontend (TUI)** | [ncspot](https://github.com/hrkfdn/ncspot/) | `1.3.3` |
+| Tool | Version |
+| :--- | :------ |
+| [Hyprland](https://hypr.land/) | `0.53.3` |
+| [librespot](https://github.com/librespot-org/librespot/) | `0.8.0` |
+| [ncspot](https://github.com/hrkfdn/ncspot/) | `1.3.3` |
+| [aplay(ALSA)](https://archlinux.org/packages/extra/x86_64/alsa-utils/) | `1.2.15.2` |
+
+> ALSA is awsome, use it!
+> ```sh
+> pacman -S alsa-utils
+> ```
 
 ### Why not GUI
 
@@ -51,11 +57,13 @@ Why a BE + FE setup is preferable:
 
     ```sh
     git clone https://github.com/jvkceberg/.hyprconfigs.git
-    cp -r .hyprconfigs/.config/spotify/ ~/.config/spotify/
+    cp -r .hyprconfigs/.config/spotify/* ~/.config/spotify/
     cd ~/.config/spotify/
     chmod +x ./scripts/install.sh
     ./scripts/install.sh
     ```
+    
+    Or, you can just use my whole project.
 
 3. Reload hyprland.
 
