@@ -9,7 +9,6 @@ Configurations for [Spotify](https://www.spotify.com/) in [Hyprland](https://hyp
 | [Hyprland](https://hypr.land/) | `0.53.3` |
 | [librespot](https://github.com/librespot-org/librespot/) | `0.8.0` |
 | [ncspot](https://github.com/hrkfdn/ncspot/) | `1.3.3` |
-| [aplay(ALSA)](https://archlinux.org/packages/extra/x86_64/alsa-utils/) | `1.2.15.2` |
 
 > ALSA is awsome, use it!
 > ```sh

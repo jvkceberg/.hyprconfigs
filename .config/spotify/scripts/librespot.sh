@@ -3,7 +3,7 @@
 NAME="librespot"
 DEVICE_TYPE="computer"
 BITRATE="160"
-BACKEND="alsa"
+BACKEND="rodio"   # "librespot --backend ?" to get available backend
 MIXER="softvol"
 DEVICE="default"
 VOLUME_CTRL="log"
