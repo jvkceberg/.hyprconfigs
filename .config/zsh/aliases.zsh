@@ -1,8 +1,9 @@
 # Oxidization
 alias ls='eza'
-alias cp='uu-cp -i'
-alias mv='uu-mv -i'
-alias rm='uu-rm -i'
+alias l='eza'
+alias cp='uu-cp'
+alias mv='uu-mv'
+alias rm='uu-rm'
 alias mkdir='uu-mkdir'
 alias rmdir='uu-rmdir'
 alias cat='bat'
