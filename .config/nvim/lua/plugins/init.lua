@@ -33,7 +33,7 @@ return {
     end,
   },
 
-  { import = "plugins.ron" }
+  { import = "plugins.ron" },
 
   -- Rust Setup by grok
   {
